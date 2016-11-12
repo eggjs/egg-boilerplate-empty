@@ -1,0 +1,37 @@
+{
+  "name": "egg-boilerplate-empty",
+  "version": "1.0.0",
+  "description": "empty boilerplate for egg simple project",
+  "scripts": {
+    "autod": "autod",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-boilerplate",
+    "ci": "npm run lint && npm run ci-boilerplate",
+    "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "build": "egg-init dist --force --silent --template=./",
+    "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
+  },
+  "homepage": "https://github.com/eggjs/egg-boilerplate-empty",
+  "bugs": "https://github.com/eggjs/egg/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-boilerplate-empty.git"
+  },
+  "author": "TZ <atian25@qq.com>",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "egg-ci": "^1.1.0",
+    "egg-init": "^1.4.2",
+    "eslint": "^3.10.0",
+    "eslint-config-egg": "^3.2.0",
+    "npminstall": "^2.11.2",
+    "webstorm-disable-index": "^1.0.11"
+  },
+  "ci": {
+    "version": "4, 6, 7"
+  }
+}
