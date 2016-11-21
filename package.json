@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-empty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "empty boilerplate for egg simple project",
   "scripts": {
     "autod": "autod",
