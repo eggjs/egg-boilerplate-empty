@@ -1,7 +1,10 @@
 'use strict';
 
-module.exports = () => {
-  const exports = {};
+module.exports = appInfo => {
+  const config = {};
 
-  return exports;
+  // should change to your own
+  config.keys = appInfo.name + '123456';
+
+  return config;
 };
