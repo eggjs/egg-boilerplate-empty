@@ -32,6 +32,6 @@
     "webstorm-disable-index": "^1.1.2"
   },
   "ci": {
-    "version": "4, 6, 7"
+    "version": "6, 7"
   }
 }

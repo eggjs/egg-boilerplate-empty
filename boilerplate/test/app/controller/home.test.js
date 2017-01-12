@@ -19,8 +19,8 @@ describe('test/app/controller/home.test.js', () => {
     assert(app.name === '{{name}}');
 
     return request(app.callback())
-    .get('/')
-    .expect('hi, egg')
-    .expect(200);
+      .get('/')
+      .expect('hi, egg')
+      .expect(200);
   });
 });
