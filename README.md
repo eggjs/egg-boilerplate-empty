@@ -1,6 +1,8 @@
 # egg-boilerplate-empty
 
-Boilerplate for egg simple project, as empty as possible.
+Boilerplate for simple project, as empty as possible. only init basic stuff, such as lint / test / ci ...
+
+also see [boilerplate - README](./boilerplate/README.md).
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -26,13 +28,12 @@ Boilerplate for egg simple project, as empty as possible.
 
 **Don't `npm install` this directly**
 
-```shell
+```bash
 $ npm install -g egg-init
 $ egg-init --type empty showcase
 $ cd showcase
 $ npm install
-$ npm run dev
-$ open http://localhost:7001
+$ # then run with `npm run dev` / `npm start` / `npm test`
 ```
 
 See [egg-init](https://github.com/eggjs/egg-init) for more detail.
