@@ -1,4 +1,9 @@
 
+2.0.0 / 2017-01-16
+==================
+
+  * feat: [BREAKING_CHANGE] mv egg stuff to simple boilerplate (#5)
+
 1.1.0 / 2017-01-13
 ==================
 
