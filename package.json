@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-empty",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "only init basic stuff, such as eslint / test / ci ... ",
   "scripts": {
     "autod": "autod",
