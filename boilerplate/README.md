@@ -2,31 +2,28 @@
 
 {{description}}
 
-## QuickStart
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][codecov-image]][codecov-url]
+[![David deps][david-image]][david-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![NPM download][download-image]][download-url]
 
-<!-- add docs here for user -->
+[npm-image]: https://img.shields.io/npm/v/{{name}}.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/{{name}}
+[travis-image]: https://img.shields.io/travis/{{org}}/{{name}}.svg?style=flat-square
+[travis-url]: https://travis-ci.org/{{org}}/{{name}}
+[codecov-image]: https://codecov.io/gh/{{org}}/{{name}}/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/{{org}}/{{name}}
+[david-image]: https://img.shields.io/david/{{org}}/{{name}}.svg?style=flat-square
+[david-url]: https://david-dm.org/{{org}}/{{name}}
+[snyk-image]: https://snyk.io/test/npm/{{name}}/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/{{name}}
+[download-image]: https://img.shields.io/npm/dm/{{name}}.svg?style=flat-square
+[download-url]: https://npmjs.org/package/{{name}}
 
-see [egg docs][egg] for more detail.
+## Usage
 
-### Development
-```bash
-$ npm install
-$ npm run dev
 ```
-
-### Unit Test
-- [mocha], [thunk-mocha], [power-assert], [istanbul] is build-in to [egg-bin], so you can just use it.
-- [power-assert] is very powerful.
-- see [egg unit test docs](https://eggjs.org/core/unittest) for more detail.
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-[mocha]: http://mochajs.org
-[thunk-mocha]: https://npmjs.com/thunk-mocha
-[power-assert]: https://github.com/power-assert-js/power-assert
-[istanbul]: https://github.com/gotwarlost/istanbul
-[egg-bin]: https://github.com/eggjs/egg-bin
+npm i {{name}} --save
+```
