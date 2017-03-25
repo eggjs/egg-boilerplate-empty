@@ -24,6 +24,6 @@
 
 ## Usage
 
-```
+```bash
 npm i {{name}} --save
 ```
