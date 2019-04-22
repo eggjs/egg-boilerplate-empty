@@ -1,4 +1,10 @@
 
+3.1.0 / 2019-04-22
+==================
+
+**features**
+  * [[`27d652c`](http://github.com/eggjs/egg-boilerplate-empty/commit/27d652c51116cbb2cec37bafb2f8f913599e252b)] - feat: update node version to 10 && add org question (#14) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.0.0 / 2018-02-24
 ==================
 

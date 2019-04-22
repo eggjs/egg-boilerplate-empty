@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-empty",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "only init basic stuff, such as eslint / test / ci ... ",
   "scripts": {
     "autod": "autod",
@@ -19,9 +19,7 @@
     "url": "git@github.com:eggjs/egg-boilerplate-empty.git"
   },
   "author": "TZ <atian25@qq.com>",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "egg-ci": "^1.8.0",
@@ -31,7 +29,10 @@
     "npminstall": "^3.3.0",
     "webstorm-disable-index": "^1.2.0"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "ci": {
     "version": "10"
   }
