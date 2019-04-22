@@ -9,11 +9,10 @@
     "egg-bin": "^4.3.7",
     "egg-ci": "^1.8.0",
     "eslint": "^4.18.1",
-    "eslint-config-egg": "^7.0.0",
-    "webstorm-disable-index": "^1.2.0"
+    "eslint-config-egg": "^7.0.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "autod": "autod",
@@ -25,7 +24,7 @@
     "pkgfiles": "egg-bin pkgfiles"
   },
   "ci": {
-    "version": "8"
+    "version": "10"
   },
   "eslintIgnore": [ "coverage", "dist" ],
   "repository": {

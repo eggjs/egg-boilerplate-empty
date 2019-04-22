@@ -33,6 +33,6 @@
   },
   "eslintIgnore": [ "coverage", "dist" ],
   "ci": {
-    "version": "8"
+    "version": "10"
   }
 }
