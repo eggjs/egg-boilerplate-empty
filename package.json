@@ -4,9 +4,8 @@
   "description": "only init basic stuff, such as eslint / test / ci ... ",
   "scripts": {
     "autod": "autod",
-    "lint": "eslint .",
-    "test": "npm run lint -- --fix && npm run test-boilerplate",
-    "ci": "npm run lint && npm run ci-boilerplate",
+    "test": "npm run test-boilerplate",
+    "ci": "npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "build": "egg-init dist --force --silent --template=./",
@@ -23,17 +22,14 @@
   "devDependencies": {
     "autod": "^3.0.1",
     "egg-ci": "^1.8.0",
-    "egg-init": "^1.13.0",
-    "eslint": "^4.18.1",
-    "eslint-config-egg": "^7.0.0",
-    "npminstall": "^3.3.0",
-    "webstorm-disable-index": "^1.2.0"
+    "egg-init": "^2",
+    "npminstall": "^3.3.0"
   },
-  "eslintIgnore": [
-    "coverage",
-    "dist"
-  ],
   "ci": {
-    "version": "10"
+    "version": "14",
+    "type": "github",
+    "os": {
+      "github": "linux, macos"
+    }
   }
 }

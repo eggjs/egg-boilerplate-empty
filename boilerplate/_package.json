@@ -5,11 +5,11 @@
   "dependencies": {
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "egg-bin": "^4.3.7",
-    "egg-ci": "^1.8.0",
-    "eslint": "^4.18.1",
-    "eslint-config-egg": "^7.0.0"
+    "autod": "^3",
+    "egg-bin": "^4",
+    "egg-ci": "^1",
+    "eslint": "^7",
+    "eslint-config-egg": "^9"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -24,7 +24,8 @@
     "pkgfiles": "egg-bin pkgfiles"
   },
   "ci": {
-    "version": "10"
+    "version": "12, 14",
+    "type": "github"
   },
   "eslintIgnore": [ "coverage", "dist" ],
   "repository": {
