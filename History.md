@@ -1,4 +1,13 @@
 
+3.2.0 / 2021-06-07
+==================
+
+**features**
+  * [[`b25bb3a`](http://github.com/eggjs/egg-boilerplate-empty/commit/b25bb3a18af83322ad6c104c8066a95fc30df642)] - feat: update deps && refresh (#16) (TZ | 天猪 <<atian25@qq.com>>)
+
+**others**
+  * [[`01e9907`](http://github.com/eggjs/egg-boilerplate-empty/commit/01e99079fddabc480aa1d848e58423824806d2c5)] - chore: update travis (#15) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.1.0 / 2019-04-22
 ==================
 
