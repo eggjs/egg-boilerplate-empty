@@ -1,4 +1,10 @@
 
+3.2.1 / 2021-06-07
+==================
+
+**fixes**
+  * [[`4c670d0`](http://github.com/eggjs/egg-boilerplate-empty/commit/4c670d0c653f40fb22efdd94fe80ba3754c3c1e3)] - fix: ci badge (#17) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.2.0 / 2021-06-07
 ==================
 
