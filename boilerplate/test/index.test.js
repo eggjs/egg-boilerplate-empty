@@ -1,6 +1,9 @@
 'use strict';
 
-describe('test/index.test.js', () => {
+const assert = require('assert').strict;
 
-  it('should work', () => {});
+describe('test/index.test.js', () => {
+  it('should work', () => {
+    assert(true);
+  });
 });

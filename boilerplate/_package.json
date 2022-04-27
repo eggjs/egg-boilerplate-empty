@@ -2,17 +2,16 @@
   "name": "{{name}}",
   "version": "1.0.0",
   "description": "{{description}}",
+  "author": "{{author}}",
+  "type": "commonjs",
   "dependencies": {
   },
   "devDependencies": {
     "autod": "^3",
     "egg-bin": "^4",
     "egg-ci": "^1",
-    "eslint": "^7",
-    "eslint-config-egg": "^9"
-  },
-  "engines": {
-    "node": ">=10.0.0"
+    "eslint": "^8",
+    "eslint-config-egg": "^11"
   },
   "scripts": {
     "autod": "autod",
@@ -23,19 +22,28 @@
     "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
     "pkgfiles": "egg-bin pkgfiles"
   },
-  "ci": {
-    "version": "12, 14",
-    "type": "github"
-  },
-  "eslintIgnore": [ "coverage", "dist" ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "files": [
     "lib",
     "index.js"
   ],
-  "author": "{{author}}",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "ci": {
+    "version": "16",
+    "type": "github"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-egg",
+    "ignorePatterns": [
+      "dist",
+      "coverage",
+      "node_modules"
+    ]
+  },
   "license": "MIT"
 }
