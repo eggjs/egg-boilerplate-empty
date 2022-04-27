@@ -1,4 +1,10 @@
 
+3.3.0 / 2022-04-27
+==================
+
+**features**
+  * [[`f1eb149`](http://github.com/eggjs/egg-boilerplate-empty/commit/f1eb149819d284e8d9700093190ca3b9c5bbdf76)] - feat: update to 16.x (#18) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.2.1 / 2021-06-07
 ==================
 
