@@ -1,4 +1,10 @@
 
+3.4.0 / 2022-09-30
+==================
+
+**others**
+  * [[`c67f8bc`](http://github.com/eggjs/egg-boilerplate-empty/commit/c67f8bcd037d3578b4dbcd7e25569774d67dfc60)] - chore: update deps (#19) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.3.0 / 2022-04-27
 ==================
 
