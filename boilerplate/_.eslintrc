@@ -1,0 +1,8 @@
+{
+  "extends": "eslint-config-egg",
+  "ignorePatterns": [
+    "dist",
+    "coverage",
+    "node_modules"
+  ]
+}
