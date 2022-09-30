@@ -5,26 +5,21 @@
   "author": "TZ <atian25@qq.com>",
   "dependencies": {},
   "devDependencies": {
-    "autod": "^3.0.1",
-    "egg-ci": "^1.8.0",
+    "egg-ci": "^2",
     "egg-init": "^2",
-    "npminstall": "^3.3.0"
+    "npminstall": "^6"
   },
   "scripts": {
-    "autod": "autod",
     "test": "npm run test-boilerplate",
     "ci": "npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "build": "egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
+    "install-deps": "cd dist && ../node_modules/.bin/npminstall"
   },
   "ci": {
-    "version": "16",
-    "type": "github",
-    "os": {
-      "github": "linux, macos"
-    }
+    "version": "16, 18",
+    "type": "github"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-empty",
   "bugs": "https://github.com/eggjs/egg/issues",

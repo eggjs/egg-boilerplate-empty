@@ -7,20 +7,17 @@
   "dependencies": {
   },
   "devDependencies": {
-    "autod": "^3",
-    "egg-bin": "^4",
-    "egg-ci": "^1",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
     "eslint": "^8",
-    "eslint-config-egg": "^11"
+    "eslint-config-egg": "^12"
   },
   "scripts": {
-    "autod": "autod",
     "lint": "eslint .",
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles"
+    "ci": "npm run lint && npm run cov"
   },
   "files": [
     "lib",
@@ -34,16 +31,8 @@
     "access": "public"
   },
   "ci": {
-    "version": "16",
+    "version": "16, 18",
     "type": "github"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-egg",
-    "ignorePatterns": [
-      "dist",
-      "coverage",
-      "node_modules"
-    ]
   },
   "license": "MIT"
 }
