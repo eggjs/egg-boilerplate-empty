@@ -6,16 +6,14 @@
   "dependencies": {},
   "devDependencies": {
     "egg-ci": "^2",
-    "egg-init": "^2",
-    "npminstall": "^6"
+    "egg-init": "^2"
   },
   "scripts": {
     "test": "npm run test-boilerplate",
     "ci": "npm run ci-boilerplate",
-    "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
-    "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
-    "build": "egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && ../node_modules/.bin/npminstall"
+    "test-boilerplate": "npm run build && cd dist && npm i && npm test",
+    "ci-boilerplate": "npm run build && cd dist && npm i && npm run ci",
+    "build": "egg-init dist --force --silent --template=./"
   },
   "ci": {
     "version": "16, 18",
